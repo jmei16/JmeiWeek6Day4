@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702AA82924E5DCC500497769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA82824E5DCC500497769 /* AppDelegate.swift */; };
+		702AA82B24E5DCC500497769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA82A24E5DCC500497769 /* ViewController.swift */; };
+		702AA82E24E5DCC500497769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702AA82C24E5DCC500497769 /* Main.storyboard */; };
+		702AA83024E5DCC700497769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702AA82F24E5DCC700497769 /* Assets.xcassets */; };
+		702AA83324E5DCC700497769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702AA83124E5DCC700497769 /* LaunchScreen.storyboard */; };
+		702AA83E24E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA83D24E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseTests.swift */; };
+		702AA84924E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA84824E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseUITests.swift */; };
+		702AA85724E5E13500497769 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 702AA85624E5E13500497769 /* download.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		702AA83A24E5DCC700497769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702AA81D24E5DCC500497769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702AA82424E5DCC500497769;
+			remoteInfo = "Jia Ming_M_Weatherapp_Exercise";
+		};
+		702AA84524E5DCC700497769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702AA81D24E5DCC500497769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702AA82424E5DCC500497769;
+			remoteInfo = "Jia Ming_M_Weatherapp_Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		702AA82524E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jia Ming_M_Weatherapp_Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702AA82824E5DCC500497769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702AA82A24E5DCC500497769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		702AA82D24E5DCC500497769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702AA82F24E5DCC700497769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702AA83224E5DCC700497769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702AA83424E5DCC700497769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702AA83924E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jia Ming_M_Weatherapp_ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702AA83D24E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jia_Ming_M_Weatherapp_ExerciseTests.swift; sourceTree = "<group>"; };
+		702AA83F24E5DCC700497769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702AA84424E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jia Ming_M_Weatherapp_ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702AA84824E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jia_Ming_M_Weatherapp_ExerciseUITests.swift; sourceTree = "<group>"; };
+		702AA84A24E5DCC700497769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702AA85624E5E13500497769 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702AA82224E5DCC500497769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702AA83624E5DCC700497769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702AA84124E5DCC700497769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702AA81C24E5DCC500497769 = {
+			isa = PBXGroup;
+			children = (
+				702AA82724E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise */,
+				702AA83C24E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests */,
+				702AA84724E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests */,
+				702AA82624E5DCC500497769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702AA82624E5DCC500497769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702AA82524E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise.app */,
+				702AA83924E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests.xctest */,
+				702AA84424E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702AA82724E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				702AA82824E5DCC500497769 /* AppDelegate.swift */,
+				702AA82A24E5DCC500497769 /* ViewController.swift */,
+				702AA82C24E5DCC500497769 /* Main.storyboard */,
+				702AA82F24E5DCC700497769 /* Assets.xcassets */,
+				702AA85624E5E13500497769 /* download.png */,
+				702AA83124E5DCC700497769 /* LaunchScreen.storyboard */,
+				702AA83424E5DCC700497769 /* Info.plist */,
+			);
+			path = "Jia Ming_M_Weatherapp_Exercise";
+			sourceTree = "<group>";
+		};
+		702AA83C24E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				702AA83D24E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseTests.swift */,
+				702AA83F24E5DCC700497769 /* Info.plist */,
+			);
+			path = "Jia Ming_M_Weatherapp_ExerciseTests";
+			sourceTree = "<group>";
+		};
+		702AA84724E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				702AA84824E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseUITests.swift */,
+				702AA84A24E5DCC700497769 /* Info.plist */,
+			);
+			path = "Jia Ming_M_Weatherapp_ExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702AA82424E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702AA84D24E5DCC700497769 /* Build configuration list for PBXNativeTarget "Jia Ming_M_Weatherapp_Exercise" */;
+			buildPhases = (
+				702AA82124E5DCC500497769 /* Sources */,
+				702AA82224E5DCC500497769 /* Frameworks */,
+				702AA82324E5DCC500497769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jia Ming_M_Weatherapp_Exercise";
+			productName = "Jia Ming_M_Weatherapp_Exercise";
+			productReference = 702AA82524E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		702AA83824E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702AA85024E5DCC700497769 /* Build configuration list for PBXNativeTarget "Jia Ming_M_Weatherapp_ExerciseTests" */;
+			buildPhases = (
+				702AA83524E5DCC700497769 /* Sources */,
+				702AA83624E5DCC700497769 /* Frameworks */,
+				702AA83724E5DCC700497769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702AA83B24E5DCC700497769 /* PBXTargetDependency */,
+			);
+			name = "Jia Ming_M_Weatherapp_ExerciseTests";
+			productName = "Jia Ming_M_Weatherapp_ExerciseTests";
+			productReference = 702AA83924E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		702AA84324E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702AA85324E5DCC700497769 /* Build configuration list for PBXNativeTarget "Jia Ming_M_Weatherapp_ExerciseUITests" */;
+			buildPhases = (
+				702AA84024E5DCC700497769 /* Sources */,
+				702AA84124E5DCC700497769 /* Frameworks */,
+				702AA84224E5DCC700497769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702AA84624E5DCC700497769 /* PBXTargetDependency */,
+			);
+			name = "Jia Ming_M_Weatherapp_ExerciseUITests";
+			productName = "Jia Ming_M_Weatherapp_ExerciseUITests";
+			productReference = 702AA84424E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702AA81D24E5DCC500497769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jia Ming Mei";
+				TargetAttributes = {
+					702AA82424E5DCC500497769 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					702AA83824E5DCC700497769 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 702AA82424E5DCC500497769;
+					};
+					702AA84324E5DCC700497769 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 702AA82424E5DCC500497769;
+					};
+				};
+			};
+			buildConfigurationList = 702AA82024E5DCC500497769 /* Build configuration list for PBXProject "Jia Ming_M_Weatherapp_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702AA81C24E5DCC500497769;
+			productRefGroup = 702AA82624E5DCC500497769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702AA82424E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise */,
+				702AA83824E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseTests */,
+				702AA84324E5DCC700497769 /* Jia Ming_M_Weatherapp_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702AA82324E5DCC500497769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702AA83324E5DCC700497769 /* LaunchScreen.storyboard in Resources */,
+				702AA83024E5DCC700497769 /* Assets.xcassets in Resources */,
+				702AA82E24E5DCC500497769 /* Main.storyboard in Resources */,
+				702AA85724E5E13500497769 /* download.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702AA83724E5DCC700497769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702AA84224E5DCC700497769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702AA82124E5DCC500497769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702AA82B24E5DCC500497769 /* ViewController.swift in Sources */,
+				702AA82924E5DCC500497769 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702AA83524E5DCC700497769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702AA83E24E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702AA84024E5DCC700497769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702AA84924E5DCC700497769 /* Jia_Ming_M_Weatherapp_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		702AA83B24E5DCC700497769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702AA82424E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise */;
+			targetProxy = 702AA83A24E5DCC700497769 /* PBXContainerItemProxy */;
+		};
+		702AA84624E5DCC700497769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702AA82424E5DCC500497769 /* Jia Ming_M_Weatherapp_Exercise */;
+			targetProxy = 702AA84524E5DCC700497769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		702AA82C24E5DCC500497769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702AA82D24E5DCC500497769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702AA83124E5DCC700497769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702AA83224E5DCC700497769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702AA84B24E5DCC700497769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		702AA84C24E5DCC700497769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702AA84E24E5DCC700497769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_Weatherapp_Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-Weatherapp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		702AA84F24E5DCC700497769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_Weatherapp_Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-Weatherapp-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		702AA85124E5DCC700497769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_Weatherapp_ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-Weatherapp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jia Ming_M_Weatherapp_Exercise.app/Jia Ming_M_Weatherapp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		702AA85224E5DCC700497769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_Weatherapp_ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-Weatherapp-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jia Ming_M_Weatherapp_Exercise.app/Jia Ming_M_Weatherapp_Exercise";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
+		702AA85424E5DCC700497769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_Weatherapp_ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-Weatherapp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Jia Ming_M_Weatherapp_Exercise";
+			};
+			name = Debug;
+		};
+		702AA85524E5DCC700497769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Jia Ming_M_Weatherapp_ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jia-Ming-M-Weatherapp-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Jia Ming_M_Weatherapp_Exercise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702AA82024E5DCC500497769 /* Build configuration list for PBXProject "Jia Ming_M_Weatherapp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702AA84B24E5DCC700497769 /* Debug */,
+				702AA84C24E5DCC700497769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702AA84D24E5DCC700497769 /* Build configuration list for PBXNativeTarget "Jia Ming_M_Weatherapp_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702AA84E24E5DCC700497769 /* Debug */,
+				702AA84F24E5DCC700497769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702AA85024E5DCC700497769 /* Build configuration list for PBXNativeTarget "Jia Ming_M_Weatherapp_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702AA85124E5DCC700497769 /* Debug */,
+				702AA85224E5DCC700497769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702AA85324E5DCC700497769 /* Build configuration list for PBXNativeTarget "Jia Ming_M_Weatherapp_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702AA85424E5DCC700497769 /* Debug */,
+				702AA85524E5DCC700497769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702AA81D24E5DCC500497769 /* Project object */;
+}
